@@ -1,0 +1,12 @@
+public class TestCat {
+    static void main() {
+        Cat c1 = new Cat();
+        Cat c2 = new Cat(5,45,"Lucy");
+
+        c1.move();
+        c2.move2(20);
+
+        c1.status();
+        c2.status();
+    }
+}
